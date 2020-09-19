@@ -1,0 +1,21 @@
+There are two main parts to running this project. The model creating and the deployment
+
+Model creating:
+Make sure you are running in an updated tensorflow container
+In the command prompt make sure you are in the project folder and enter the following
+'pip install "requirements.txt"'
+This will install the nescesary libraries 
+You may use the listing.csv file that is in the project already or replace
+it with a different listing file from "http://insideairbnb.com/get-the-data.html" 
+to train the model make sure comman prompt is in the model creating folder and enter the following
+'python main.py'
+Once the model training is complete move all of the created .pkl and .csv files outside of the folder
+
+Model deployment:
+make sure you are running in an updated tensorflow container
+make sure the command prompt is in the main project folder and enter the following
+'python app.py'
+the deployment will be on port 8000
+Enter a neigborhood description in the message box and submit
+A list of neighborhoods matching your description will be returned
+

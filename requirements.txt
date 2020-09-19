@@ -1,0 +1,10 @@
+pandas
+Keras
+tensorflow
+flask
+numpy
+pickle-mixin
+spacy
+unicodedata2
+sklearn
+scipy
